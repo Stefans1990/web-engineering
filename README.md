@@ -11,8 +11,6 @@ This is a project elaborated by students for the Web Engineering course of FHNW.
   - [Entity Relationship Diagram](#entity-relationship-diagram)
   - [Domain Model](#domain-model)
   - [Data Access Model](#data-access-model)
-  - [Business Logic Model](#business-logic-model)
-  - [Layering Architecture](#layering-architecture)
 - [Implementation](#implementation)
   - [Stage 1: Structure](#stage-1-structure)
   - [Stage 2: Autoloader and Routing](#stage-2-autoloader-and-routing)
@@ -73,11 +71,10 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
  
  ### Domain Model
  
+ ![](images/Domainmodel.PNG)
+ 
  ### Data Access Model
  
- ### Business Logic Model
- 
- ### Layering Architecture
  
 ## Implementation
 ### Stage 1: Structure
