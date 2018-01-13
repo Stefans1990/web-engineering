@@ -2,20 +2,20 @@
 
 This is a project elaborated by students for the Web Engineering course of FHNW.
 
-- [Web Engineering Process](#Web-Engineering-process)
+- [Web Engineering Process](#web-engineering-process)
   - [Scenario](#scenario)
 
-## Web-Engineering-Process 
+## Web Engineering Process 
 
 ### Scenario
-SwissStudyPortal is a portal designed for students and universities. It allows universities and universities of applied sciences to display their existing bachelor and master thesis offers to students in Switzerland. The universities are able to login to the portal and manage their course offers for students. 
-Requirement Analysis
-University users must be able to register.
-University users must be able to login with username and password.
-Data from the registered university users must be stored.
-Passwords for the accounts must be stored securely.
-There must be a database to store course offerings of the universities
-University users must be able to create, read, update and delete their course offerings
+SwissStudyPortal is a portal designed for students and universities. It allows universities and universities of applied sciences to display their existing further education offers to students in Switzerland. The universities are able to login to the portal and manage their course offers for students. 
+### Requirement Analysis
+- University users must be able to register.
+- University users must be able to login with username and password.
+- Data from the registered university users must be stored.
+- Passwords for the accounts must be stored securely.
+- There must be a database to store course offerings of the universities
+- University users must be able to create, read, update and delete their course offerings
 
 Use Case
 ## Analysis
