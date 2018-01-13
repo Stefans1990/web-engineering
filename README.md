@@ -13,8 +13,10 @@ This is a project elaborated by students for the Web Engineering course of FHNW.
   - [Stage 3: Database](#stage-3-database)
   - [Stage 4: Database Access and Domain Objects](#stage-4-database-access-and-domain-objects)
   - [Stage 5: Business Service](#stage-5-business-services)
-  - [Stage 6: Register/Login frontend](#stage-6-register-login-frontend)
-  - [Stage 7: Email Service](#stage-7-email-service)
+  - [Stage 6: Register/Login](#stage-6-register-login)
+  - [Stage 7: Course offerings view frontend](#stage-7-course-offerings-view-frontend)
+  - [Stage 8: PDF creation](#stage-8-pdf-creation)
+  - [Stage 9: Email Service](#stage-9-email-service)
 - [Deployment](#deployment)
 
 ## Web Engineering Process 
