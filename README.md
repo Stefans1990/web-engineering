@@ -6,7 +6,13 @@ This is a project elaborated by students for the Web Engineering course of FHNW.
   - [Scenario](#scenario)
   - [Requirement Analysis](#requirement-analysis)
   - [Use case](#use-case)
-  - [Wireframe](#wireframe)
+- [Design](#design)
+  - [Mockups](#mockups)
+  - [Entity Relationship Diagram](#entity-relationship-diagram)
+  - [Domain Model](#domain-model)
+  - [Data Access Model](#data-access-model)
+  - [Business Logic Model](#business-logic-model)
+  - [Layering Architecture](#layering-architecture)
 - [Implementation](#implementation)
   - [Stage 1: Structure](#stage-1-structure)
   - [Stage 2: Autoloader and Routing](#stage-2-autoloader-and-routing)
@@ -33,7 +39,7 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
 
 ### Use Case
 
-![](images/Use-case.JPG)
+![](images/Use-case.png)
   
 
 - UC-1 [Register]: University Users can register to get a profile for their university on swissstudyportals.
@@ -43,15 +49,33 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
 - UC-5[manage school]: University Users can create, read, update and delete how their school is displayed on swissstudyportals. 
 - UC-6[filter]: Users can search and filter the displayed course offers from the universities.
 - UC-7[view course]: Users are able to view the course details offered by the universities by clicking on the courses, after filtering for their wished courses.
-
-### Wireframe
+## Design
+### Mockups
+ The following picture shows the registration screen of swissstudyportals
  
+ ![](images/registration.png)
  
+ The following picture shows the login page
  
+ ![](images/login.png)
  
-
+ The following picture shows the course overview page
  
-
+ ![](images/course-overview.png)
+ 
+ The following picture shows the search interface, where users can filter for their prefered courses
+ 
+ ![](images/search-interface.png)
+ ### Entity Relationship Diagram
+ 
+ ### Domain Model
+ 
+ ### Data Access Model
+ 
+ ### Business Logic Model
+ 
+ ### Layering Architecture
+ 
 ## Implementation
 ### Stage 1: Structure
 The framework used to structure the system, was offered by our lecturer Andreas Martin. The detailed description of the framework can be found at https://github.com/andreasmartin/WE-CRM.
