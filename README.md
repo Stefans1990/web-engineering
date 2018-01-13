@@ -49,9 +49,10 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
  
 
 ## Implementation
-### Stage 1 : Structure
+### Stage 1: Structure
 The framework used to structure the system, was offered by our lecturer Andreas Martin. The detailed description of the framework can be found at https://github.com/andreasmartin/WE-CRM.
-At first, a bootstrap based prototype has been created (see mockups above), based on the mockups, the application bootstrap studio has been used to create the basic UI design based on HTML, CSS and JavaScript. 
+- At first, a bootstrap based prototype has been created (see mockups above).
+- based on the mockups the application bootstrap studio has been used to create the basic UI design based on HTML, CSS and JavaScript. 
 
 ### Stage 2: Autoloader and Routing
 The autoloader and router and router exception file was created using the methods suggested by our lecturer Andreas Martin.
@@ -86,26 +87,37 @@ ALTER TABLE Course ADD CONSTRAINT FKCourse911790 FOREIGN KEY ("FK_university") R
 ```
 
 ### Stage 4: Database Access and Domain Objects
-In this stage, DAO objects have been created and the database was accessed using PDO functionality. Furthermore, we created:
-Classes as well as methods to access the database
-SQL statements to create, read, update and delete data from the database and we added these statements into the PDO environment.
-Domain objects to hold the data from the database.
-Added getters and setters to domain objects
+In this stage, DAO objects have been created and the database was accessed using PDO functionality. 
+Furthermore, we created:
+- Classes as well as methods to access the database
+- SQL statements to create, read, update and delete data from the database and we added these statements into the PDO environment.
+- Domain objects to hold the data from the database.
+- In case of failures with the retrieved domain objects, they get stored as arrays
+- Added getters and setters to domain objects
 
 ### Stage 5: Business Services
 In this stage, the business services have been created. 
-Created service classes and methods for the use cases.
-Added business functionality to the methods.
-Backend functionality to display filtered courses. 
+- Created service classes and methods for the use cases.
+- Added business functionality to the methods.
+- Backend functionality to display filtered courses. 
 
-### Stage 6: Register/Login/Module view frontend
-In this stage, the frontend for the 
+### Stage 6: Register/Login
+In this stage, the frontend for the register and login functionality have been created.
+- Created login and register pages using Bootstrap Studio.
+- Converted the pages to php files.
+- Added dynamic entries with PHP.
 
-Stage : PDF creation
+### Stage 7: Course offerings view frontend
+In this stage, the frontend for the management of the course offerings has been created.
+- Created static HTML pages for viewing, adding and editing courses using Bootstrap Studio.
+- Converted the pages to php files.
+- Added dynamic entries with PHP.
+
+### Stage 8: PDF creation
 In this stage we implemented a tool to generate PDFs.
 A pdf file will be generated when a course has been generated.
 
-### Stage : Email Service
+### Stage 9: Email Service
 In this stage, the email service was created. The system will send out emails to users when they register, set up new course offers, and when the user forgot his password. 
 Created an account on sendgrid.
 Created a class to treat email sending requests. 
