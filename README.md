@@ -14,7 +14,7 @@ There must be a database to store course offerings of the universities
 University users must be able to create, read, update and delete their course offerings
 
 Use Case
-
+## Analysis
 
 UC-1 [Register]: University Users can register to get a profile for their university on swissstudyportals.
 UC-2 [Login]: University Users can login to swissstudyportals by entering their email and password, login is only possible after registration.
