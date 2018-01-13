@@ -20,13 +20,13 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
 Use Case
 ## Analysis
 
-UC-1 [Register]: University Users can register to get a profile for their university on swissstudyportals.
-UC-2 [Login]: University Users can login to swissstudyportals by entering their email and password, login is only possible after registration.
-UC-3 [reset password]: University Users can reset their password after they registered for swissstudyportals.
-UC-4[manage courses]: University Users can create, read, update and delete the couses they offer on swissstudyportals.
-UC-5[manage school]: University Users can create, read, update and delete how their school is displayed on swissstudyportals. 
-UC-6[filter]: Users can search and filter the displayed course offers from the universities.
-UC-7[view course]: Users are able to view the course details offered by the universities by clicking on the courses, after filtering for their wished courses.
+- UC-1 [Register]: University Users can register to get a profile for their university on swissstudyportals.
+- UC-2 [Login]: University Users can login to swissstudyportals by entering their email and password, login is only possible after registration.
+- UC-3 [reset password]: University Users can reset their password after they registered for swissstudyportals.
+- UC-4[manage courses]: University Users can create, read, update and delete the couses they offer on swissstudyportals.
+- UC-5[manage school]: University Users can create, read, update and delete how their school is displayed on swissstudyportals. 
+- UC-6[filter]: Users can search and filter the displayed course offers from the universities.
+- UC-7[view course]: Users are able to view the course details offered by the universities by clicking on the courses, after filtering for their wished courses.
 
 Constraints
 Design decisions
