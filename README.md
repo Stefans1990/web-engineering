@@ -2,7 +2,7 @@
 
 This is a project elaborated by students for the Web Engineering course of FHNW.
 
-- [Web Engineering Process](#Web Engineering process)
+- [Web Engineering Process](#Web-Engineering-process)
  - [Scenario](#scenario)
 
 ## Web Engineering Process 
