@@ -33,6 +33,7 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
 
 ### Use Case
 
+![](web-engineering/Use case.png)
 
 - UC-1 [Register]: University Users can register to get a profile for their university on swissstudyportals.
 - UC-2 [Login]: University Users can login to swissstudyportals by entering their email and password, login is only possible after registration.
