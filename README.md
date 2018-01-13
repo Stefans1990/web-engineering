@@ -17,7 +17,7 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
 - There must be a database to store course offerings of the universities
 - University users must be able to create, read, update and delete their course offerings
 
-## Use Case
+### Use Case
 
 
 - UC-1 [Register]: University Users can register to get a profile for their university on swissstudyportals.
@@ -28,12 +28,7 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
 - UC-6[filter]: Users can search and filter the displayed course offers from the universities.
 - UC-7[view course]: Users are able to view the course details offered by the universities by clicking on the courses, after filtering for their wished courses.
 
-Constraints
-Design decisions
-The first page of swissstudyportal is the home screen. The home screen displays information about the portal and 
-Solution Strategy
-
-Wireframe
+### Wireframe
  
  
  
@@ -41,17 +36,44 @@ Wireframe
 
  
 
-Implementation
-Stage 1 : Structure
+## Implementation
+### Stage 1 : Structure
 The framework used to structure the system, was offered by our lecturer Andreas Martin. The detailed description of the framework can be found at https://github.com/andreasmartin/WE-CRM.
 At first, a bootstrap based prototype has been created (see mockups above), based on the mockups, the application bootstrap studio has been used to create the basic UI design based on HTML, CSS and JavaScript. 
 
-Stage 2: Autoloader and Routing
+### Stage 2: Autoloader and Routing
 The autoloader and router and router exception file was created using the methods suggested by our lecturer Andreas Martin.
 
-Stage 3: Database
+### Stage 3: Database
 The database was created using following code: 
-Stage 4: Database Access and Domain Objects
+```CREATE TABLE Course (
+  "ID_course"               SERIAL NOT NULL UNIQUE,
+  "FK_university" VARCHAR(255) NOT NULL,
+  Name                   varchar(255) NOT NULL,
+  Startdate               date,
+  Discipline              varchar(255),
+  Description             varchar(255),
+  Degree                  varchar(255),
+  Attendance              varchar(255),
+  Duration                int4,
+  Link                      VARCHAR(255),
+  Language VARCHAR(255),
+  PRIMARY KEY ("ID_course")
+);
+
+CREATE TABLE University (
+  "ID_university" VARCHAR(255) NOT NULL UNIQUE,
+  Organization          varchar(255) NOT NULL,
+  Region        varchar(255) NOT NULL,
+  Description   varchar(255),
+  Institute     varchar(255),
+  EMail         varchar(255),
+  Password      varchar(255),
+PRIMARY KEY ("ID_university"));
+ALTER TABLE Course ADD CONSTRAINT FKCourse911790 FOREIGN KEY ("FK_university") REFERENCES University ("ID_university");
+```
+
+### Stage 4: Database Access and Domain Objects
 In this stage, DAO objects have been created and the database was accessed using PDO functionality. Furthermore, we created:
 Classes as well as methods to access the database
 SQL statements to create, read, update and delete data from the database and we added these statements into the PDO environment.
