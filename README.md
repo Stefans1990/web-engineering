@@ -66,7 +66,10 @@ SwissStudyPortal is a portal designed for students and universities. It allows u
  The following picture shows the search interface, where users can filter for their prefered courses
  
  ![](images/search-interface.png)
+ 
  ### Entity Relationship Diagram
+ 
+ ![](images/ERD.PNG)
  
  ### Domain Model
  
