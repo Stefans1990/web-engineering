@@ -79,20 +79,21 @@ Classes as well as methods to access the database
 SQL statements to create, read, update and delete data from the database and we added these statements into the PDO environment.
 Domain objects to hold the data from the database.
 Added getters and setters to domain objects
-Stage 5: Business Services
+
+### Stage 5: Business Services
 In this stage, the business services have been created. 
 Created service classes and methods for the use cases.
 Added business functionality to the methods.
 Backend functionality to display filtered courses. 
 
-Stage 6: Register/Login/Module view frontend
+### Stage 6: Register/Login/Module view frontend
 In this stage, the frontend for the 
 
 Stage : PDF creation
 In this stage we implemented a tool to generate PDFs.
 A pdf file will be generated when a course has been generated.
 
-Stage : Email Service
+### Stage : Email Service
 In this stage, the email service was created. The system will send out emails to users when they register, set up new course offers, and when the user forgot his password. 
 Created an account on sendgrid.
 Created a class to treat email sending requests. 
@@ -101,7 +102,7 @@ Created a method to reset passwords
 Created a page to reset password.
 Added dynamic entries using PHP.
 
-Deployment
+## Deployment
 The system and postgre-sql database containing the data were deployed on the PaaS platform Heroku. The website is accessible under the following URL:
 https://swissstudyportal.herokuapp.com
 The source code for the website can be found in this repository. 
