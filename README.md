@@ -5,6 +5,17 @@ This is a project elaborated by students for the Web Engineering course of FHNW.
 - [Web Engineering Process](#web-engineering-process)
   - [Scenario](#scenario)
   - [Requirement Analysis](#requirement-analysis)
+  - [Use case](#use-case)
+  - [Wireframe](#wireframe)
+- [Implementation](#implementation)
+  - [Stage 1: Structure](#stage-1-structure)
+  - [Stage 2: Autoloader and Routing](#stage-2-autoloader-and-routing)
+  - [Stage 3: Database](#stage-3-database)
+  - [Stage 4: Database Access and Domain Objects](#stage-4-database-access-and-domain-objects)
+  - [Stage 5: Business Service](#stage-5-business-services)
+  - [Stage 6: Register/Login frontend](#stage-6-register-login-frontend)
+  - [Stage 7: Email Service](#stage-7-email-service)
+- [Deployment](#deployment)
 
 ## Web Engineering Process 
 
